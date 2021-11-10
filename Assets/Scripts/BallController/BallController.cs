@@ -9,6 +9,7 @@ public class BallController : MonoBehaviour
 
     private Vector2 inputVector = Vector2.zero;
     private Rigidbody2D rigidbody2D;
+    
 
     void Start()
     {
@@ -31,7 +32,6 @@ public class BallController : MonoBehaviour
 
     public Vector2 GetCursorDirection()
     {
-        //Debug.Log("Clicked");
         Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, this.transform.position.z));
         Vector3 direction = worldMousePosition - this.transform.position;
         direction.Normalize();
