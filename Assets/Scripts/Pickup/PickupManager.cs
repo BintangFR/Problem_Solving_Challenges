@@ -7,7 +7,10 @@ public class PickupManager : MonoBehaviour
     public GameObject pickupPrefabs;
 
     [SerializeField]
-    public int pickupCount = 5;
+    public int pickupMax = 5;
+    public int pickupMin = 1;
+
+    public int pickupCurrentMax;
 
     [Header("Spawning Radius")]
     public Transform xPoint;
@@ -25,7 +28,8 @@ public class PickupManager : MonoBehaviour
 
     private void Start()
     {
-        for(int i = 0; i < pickupCount; i++)
+        pickupCurrentMax = Random.Range(pickupMin, pickupMax);
+        for (int i = 0; i < pickupCurrentMax; i++)
             SpawnPickup(_xRadius, _yRadius);
     }
 
