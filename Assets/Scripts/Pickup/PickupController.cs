@@ -5,6 +5,7 @@ using UnityEngine;
 public class PickupController : MonoBehaviour
 {
     private GameManager gameManager;
+    private PickupManager pickupManager;
 
     [SerializeField]
     public int score = 1;
@@ -12,13 +13,15 @@ public class PickupController : MonoBehaviour
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        pickupManager = GameObject.Find("Pickup Manager").GetComponent<PickupManager>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Ball")
         {
-            gameManager.IncreaseScore(increase: score);
+            gameManager.IncreaseScore(score);
             Destroy(gameObject);
+            pickupManager.ReducePickup();
             Debug.Log("Nabrak");
         }
     }
