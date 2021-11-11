@@ -82,8 +82,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4866371298827236265}
   - component: {fileID: 7684832090063565944}
-  - component: {fileID: 7682733903814621458}
   - component: {fileID: 6354563878515850198}
+  - component: {fileID: 7731845763974211714}
   m_Layer: 0
   m_Name: Goal
   m_TagString: Pickup
@@ -157,19 +157,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7682733903814621458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6273199673214412140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e8c747d4e4b63e4f8dd6f1098fd726e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 1
 --- !u!61 &6354563878515850198
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -196,3 +183,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
   m_EdgeRadius: 0
+--- !u!114 &7731845763974211714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273199673214412140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e8c747d4e4b63e4f8dd6f1098fd726e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 1

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BoundaryController : MonoBehaviour
 {
-    private GameManager gameManager;
+    private GameManager9 gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager9>();
     }
 
     // Update is called once per frame

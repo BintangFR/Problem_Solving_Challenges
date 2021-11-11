@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickupController : MonoBehaviour
+public class GreenController : MonoBehaviour
 {
-    private GameManager gameManager;
+    private GameManager9 gameManager;
     private itemManager itemManager;
 
     [SerializeField]
@@ -12,7 +12,7 @@ public class PickupController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager9>();
         itemManager = GameObject.Find("Item Manager").GetComponent<itemManager>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
