@@ -9,6 +9,7 @@ public class PickupManager : MonoBehaviour
     [SerializeField]
     public int pickupMax = 5;
     public int pickupMin = 5;
+    public float pickupDelay = 0;
 
     public int pickupCurrentMax;
     public int pickupCurrent;
@@ -69,7 +70,7 @@ public class PickupManager : MonoBehaviour
 
     public void SpawnDelay()
     {
-        Invoke("SpawnPickup", 3f);
+        Invoke("SpawnPickup", pickupDelay);
     }
 
     public void ReducePickup()
