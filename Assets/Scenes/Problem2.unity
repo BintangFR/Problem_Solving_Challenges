@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 972567435}
   - component: {fileID: 972567434}
   - component: {fileID: 972567437}
-  - component: {fileID: 972567436}
+  - component: {fileID: 972567438}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -290,19 +290,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &972567436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972567433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3320f4994d04deb4cbd3a2cd100f95e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialSpeed: 30
 --- !u!50 &972567437
 Rigidbody2D:
   serializedVersion: 4
@@ -324,6 +311,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &972567438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972567433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa59b25eda202d345bf29f48c26a12ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 1
 --- !u!1001 &1178254258
 PrefabInstance:
   m_ObjectHideFlags: 0
