@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallController : MonoBehaviour
+public class BallController9 : MonoBehaviour
 {
     [SerializeField]
     public float initialSpeed = 30f;
@@ -18,16 +18,21 @@ public class BallController : MonoBehaviour
     
     void FixedUpdate()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            inputVector = GetCursorDirection();
-            MoveCircle(inputVector, initialSpeed);
-        }
+        //if (Input.GetButtonDown("Fire1"))
+        //{
+        //    inputVector = GetCursorDirection();
+        //    MoveCircle(inputVector, initialSpeed);
+        //}
     }
 
-    private void MoveCircle(Vector2 input, float velocity)
+    public void MoveCircle(Vector2 input, float velocity)
     {
         rigidbody2D.velocity = inputVector * velocity;
+    }
+
+    public void MoveCircle(Vector2 velocity, float distance, float speed)
+    {
+        rigidbody2D.velocity = velocity * speed * distance;
     }
 
     public Vector2 GetCursorDirection()

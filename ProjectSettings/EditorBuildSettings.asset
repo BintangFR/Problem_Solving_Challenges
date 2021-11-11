@@ -5,31 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Problem10.unity
-    guid: 218f210ebd03e5a48af60304e667d754
-  - enabled: 1
-    path: Assets/Scenes/Problem1.unity
-    guid: dd8f6d02309b2c14aa122e5fa5b92cbc
-  - enabled: 1
-    path: Assets/Scenes/Problem2.unity
-    guid: 53461abbca819514e89e3043dd4d6366
-  - enabled: 1
-    path: Assets/Scenes/Problem3.unity
-    guid: 4c622e5f0376dff45b5b7d926f04611f
-  - enabled: 1
-    path: Assets/Scenes/Problem4.unity
-    guid: 14c0d703f31a10249a651a6e0e0719b5
-  - enabled: 1
-    path: Assets/Scenes/Problem5.unity
-    guid: ecbbe6e479edd8d4e85c7baad834b880
-  - enabled: 1
-    path: Assets/Scenes/Problem6.unity
-    guid: e40b58fd617ac8343a17ba4148368efc
-  - enabled: 1
-    path: Assets/Scenes/Problem7.unity
-    guid: f61d80df4970ed44cba0655d4385934b
-  - enabled: 1
-    path: Assets/Scenes/Problem8.unity
-    guid: e6df03daa48d2bc4684c536844c65638
+    path: Assets/Scenes/Problem 9.unity
+    guid: ec30a6ef6deec1e4e8c6631412b86065
   m_configObjects: {}
