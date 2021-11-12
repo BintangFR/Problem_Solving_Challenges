@@ -378,8 +378,8 @@ GameObject:
   - component: {fileID: 972567435}
   - component: {fileID: 972567434}
   - component: {fileID: 972567437}
-  - component: {fileID: 972567438}
   - component: {fileID: 972567436}
+  - component: {fileID: 972567438}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Ball
@@ -461,7 +461,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 972567433}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3320f4994d04deb4cbd3a2cd100f95e6, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c814c4e710d5143abc22b5b06fe33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   initialSpeed: 30
@@ -1040,7 +1040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2113398134}
-  - component: {fileID: 2113398133}
+  - component: {fileID: 2113398135}
   m_Layer: 0
   m_Name: PickupManager
   m_TagString: Untagged
@@ -1048,26 +1048,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2113398133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2113398132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ba57e94515a2194c8a77c587e6e0973, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupPrefabs: {fileID: 6273199673214412140, guid: e67706dac0438a44ab98d27f81e0ec22, type: 3}
-  pickupMax: 5
-  pickupMin: 5
-  pickupCurrentMax: 0
-  pickupCurrent: 0
-  xPoint: {fileID: 1640598823}
-  yPoint: {fileID: 2130338968}
-  offset: 0
 --- !u!4 &2113398134
 Transform:
   m_ObjectHideFlags: 0
@@ -1082,6 +1062,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2113398135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113398132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fe57d4880c6d374bac1bf774034ed98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupPrefabs: {fileID: 6273199673214412140, guid: 3d842c33be3321f4b9fdb453320b1ea5, type: 3}
+  pickupMax: 10
+  pickupMin: 5
+  pickupCurrentMax: 0
+  xPoint: {fileID: 1640598823}
+  yPoint: {fileID: 2101916975}
+  offset: 0
 --- !u!1 &2130338967
 GameObject:
   m_ObjectHideFlags: 0

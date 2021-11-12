@@ -507,7 +507,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 961991300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dffcf818bfd2484ab74d43bcc331dca, type: 3}
+  m_Script: {fileID: 11500000, guid: bcdee78ebb4756e4699f9403093e5d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 797648384}
@@ -536,8 +536,8 @@ GameObject:
   - component: {fileID: 972567435}
   - component: {fileID: 972567434}
   - component: {fileID: 972567437}
-  - component: {fileID: 972567438}
   - component: {fileID: 972567436}
+  - component: {fileID: 972567438}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Ball
@@ -619,7 +619,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 972567433}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3320f4994d04deb4cbd3a2cd100f95e6, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c814c4e710d5143abc22b5b06fe33a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   initialSpeed: 30
