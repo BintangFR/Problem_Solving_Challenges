@@ -45,7 +45,7 @@ public class GameManager9 : MonoBehaviour
 
     private void RestartGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(9);
         Time.timeScale = 1;
     }
 

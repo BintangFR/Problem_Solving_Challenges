@@ -1164,7 +1164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2113398134}
-  - component: {fileID: 2113398133}
+  - component: {fileID: 2113398135}
   m_Layer: 0
   m_Name: Pickup Manager
   m_TagString: Untagged
@@ -1172,26 +1172,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2113398133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2113398132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ba57e94515a2194c8a77c587e6e0973, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupPrefabs: {fileID: 6273199673214412140, guid: e67706dac0438a44ab98d27f81e0ec22, type: 3}
-  pickupMax: 5
-  pickupMin: 1
-  pickupCurrentMax: 0
-  pickupCurrent: 0
-  xPoint: {fileID: 1640598823}
-  yPoint: {fileID: 2101916975}
-  offset: 0
 --- !u!4 &2113398134
 Transform:
   m_ObjectHideFlags: 0
@@ -1206,6 +1186,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2113398135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113398132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b139b10117604a44aaf463df2cde73e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupPrefabs: {fileID: 6273199673214412140, guid: cb00b82432eaecf4d8e0ba952f46eebf, type: 3}
+  pickupMax: 5
+  pickupMin: 1
+  pickupCurrentMax: 0
+  xPoint: {fileID: 1640598823}
+  yPoint: {fileID: 2101916975}
+  offset: 0
 --- !u!1 &2130338967
 GameObject:
   m_ObjectHideFlags: 0

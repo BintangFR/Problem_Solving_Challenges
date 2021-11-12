@@ -1075,8 +1075,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupPrefabs: {fileID: 6273199673214412140, guid: 3d842c33be3321f4b9fdb453320b1ea5, type: 3}
-  pickupMax: 10
-  pickupMin: 5
+  pickupMax: 5
+  pickupMin: 1
   pickupCurrentMax: 0
   xPoint: {fileID: 1640598823}
   yPoint: {fileID: 2101916975}
