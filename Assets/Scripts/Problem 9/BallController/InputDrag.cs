@@ -5,17 +5,11 @@ using UnityEngine;
 public class InputDrag : MonoBehaviour
 {
     [SerializeField]
-    public CircleCollider2D Collider;
     private Vector2 _startPos;
 
     [SerializeField]
-    private float _radius = 0.75f;
-
-    [SerializeField]
-    private float _throwSpeed = 30f;
 
     private Rigidbody2D rigidbody2D;
-    public LineRenderer Trajectory;
     // Start is called before the first frame update
     void Start()
     {

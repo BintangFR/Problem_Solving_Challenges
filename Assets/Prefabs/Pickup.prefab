@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4866371298827236265}
   - component: {fileID: 7684832090063565944}
-  - component: {fileID: 7682733903814621458}
+  - component: {fileID: 2933191901092103391}
   - component: {fileID: 6354563878515850198}
   m_Layer: 0
   m_Name: Pickup
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7682733903814621458
+--- !u!114 &2933191901092103391
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,25 +93,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6273199673214412140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e8c747d4e4b63e4f8dd6f1098fd726e, type: 3}
+  m_Script: {fileID: 11500000, guid: d6631264bb1e7ec42bf55e17525c5d11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickup: {fileID: 6273199673214412140}
-  OnPickup:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6273199673214412140}
-        m_TargetAssemblyTypeName: ScoreController, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  score: 1
 --- !u!61 &6354563878515850198
 BoxCollider2D:
   m_ObjectHideFlags: 0
